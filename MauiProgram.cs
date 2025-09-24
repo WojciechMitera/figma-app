@@ -13,6 +13,7 @@ namespace figma
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    fonts.AddFont("CabinetGrotesk-Variable.ttf", "CabinetGrotesk");
                 });
 
 #if DEBUG
