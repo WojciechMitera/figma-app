@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("figma")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+18fc679f31bb679ed6a938830ae0f068d4e08d73")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+26a70c89c8e07d6ffb76f446f5cda0bc59bb969d")]
 [assembly: System.Reflection.AssemblyProductAttribute("figma")]
 [assembly: System.Reflection.AssemblyTitleAttribute("figma")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

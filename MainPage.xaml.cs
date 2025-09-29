@@ -1,24 +1,25 @@
-﻿namespace figma
+﻿using System.Collections.ObjectModel;
+
+namespace figma
 {
     public partial class MainPage : ContentPage
     {
-        int count = 0;
+        ObservableCollection<item> Tasks { get; set; }
 
         public MainPage()
         {
             InitializeComponent();
+            Tasks = new ObservableCollection<item>();
+            BindingContext = this;
         }
 
-        private void OnCounterClicked(object? sender, EventArgs e)
+        private void add_Clicked(object sender, EventArgs e)
         {
-            count++;
-
-            if (count == 1)
-                CounterBtn.Text = $"Clicked {count} time";
-            else
-                CounterBtn.Text = $"Clicked {count} times";
-
-            SemanticScreenReader.Announce(CounterBtn.Text);
+            Tasks.Add(new item { czynnosc = entry.Text, zaznaczone = false});
+            list.ItemsSource = Tasks;
+            entry.Text = "";
         }
-    }
+
+       
+    }   
 }
