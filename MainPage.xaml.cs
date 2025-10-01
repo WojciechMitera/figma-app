@@ -19,7 +19,7 @@ namespace figma
             //Tasks.Add(new item { czynnosc = entry.Text, zaznaczone = false});
             await Navigation.PushAsync(new NewPage1(Tasks));
             list.ItemsSource = Tasks;
-            entry.Text = "";
+            
             
         }
 
