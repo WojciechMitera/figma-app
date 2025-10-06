@@ -4,7 +4,15 @@
              x:Class="figma.NewPage1"
              Title=""
              BackgroundColor="#b1aeb2">
+    <ContentPage.Resources>
+        <Style x:Key="title" TargetType="Label">
+            <Setter Property="FontSize" Value="50"/>
+            <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="BackgroundColor" Value="Gray"/>
+        </Style>
+    </ContentPage.Resources>
     <VerticalStackLayout>
+        <Label Text="Dodaj zadanie" WidthRequest="450" HeightRequest="100" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Center" Style="{StaticResource title}" FontFamily="CabinetGrotesk" Margin="0,0,0,0"></Label>
         <Entry x:Name="dodajtxt"></Entry>
         <Button Text="Dodaj" x:Name="dodaj" Clicked="dodaj_Clicked"></Button>
     </VerticalStackLayout>

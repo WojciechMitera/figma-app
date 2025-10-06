@@ -7,6 +7,7 @@
         <Style x:Key="title" TargetType="Label">
             <Setter Property="FontSize" Value="50"/>
             <Setter Property="FontAttributes" Value="Bold"/>
+            <Setter Property="BackgroundColor" Value="Gray"/>
         </Style>
         <Style x:Key="task" TargetType="Label">
             <Setter Property="FontSize" Value="35"/>
@@ -17,14 +18,17 @@
         </Style>
     </ContentPage.Resources>
     <VerticalStackLayout>
-        <Label Text="Do zrobienia" HorizontalOptions="Center" Style="{StaticResource title}" FontFamily="CabinetGrotesk" Margin="0,30,0,0"></Label>
+        
+        <Label Text="Do zrobienia" WidthRequest="450" HeightRequest="100" VerticalTextAlignment="Center" HorizontalTextAlignment="Center" HorizontalOptions="Center" Style="{StaticResource title}" FontFamily="CabinetGrotesk" Margin="0,0,0,0"></Label>
+        
+        
         <HorizontalStackLayout HorizontalOptions="Center">
             
             <Button Text="Dodaj" x:Name="add" Clicked="add_Clicked"></Button>
             <Button Text="Usun" x:Name="delete" Clicked="delete_Clicked"/>
         </HorizontalStackLayout>
         <Border StrokeThickness="2" Stroke="Gray" StrokeShape="RoundRectangle 10,10,10,10"  Padding="5,8" WidthRequest="370">
-            <CollectionView BackgroundColor="#b1aeb2" x:Name="list" HeightRequest="400">
+            <CollectionView BackgroundColor="#b1aeb2" x:Name="list" HeightRequest="500">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <HorizontalStackLayout Style="{StaticResource horizontal}">
