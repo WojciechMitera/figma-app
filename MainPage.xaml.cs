@@ -1,4 +1,5 @@
 ﻿using System.Collections.ObjectModel;
+using Xamarin.Google.Crypto.Tink.Subtle;
 
 
 namespace figma
@@ -12,6 +13,7 @@ namespace figma
             InitializeComponent();
             Tasks = new ObservableCollection<item>();
             BindingContext = this;
+            ToolbarItems.Add(new ToolbarItem { Text = "Wyloguj", Order = ToolbarItemOrder.Primary, Priority = 0, Command = new Command(Wyloguj) });
         }
 
         private async void add_Clicked(object sender, EventArgs e)
@@ -40,6 +42,10 @@ namespace figma
                 Tasks.Remove(lista[i]);
             }
             //Tasks.Remove((item)list.SelectedItem);
+        }
+        private async void Wyloguj()
+        {
+           
         }
     }   
 }

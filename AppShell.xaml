@@ -9,6 +9,11 @@
     BackgroundColor="Gray">
 
     <ShellContent
+        Title="Logowanie"
+        ContentTemplate="{DataTemplate local:NewPage2}"
+        Route="NewPage2"
+        />
+    <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />

@@ -12,43 +12,49 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = figma
-build_property.ProjectDir = C:\Users\Student\source\repos\figma-app\
+build_property.ProjectDir = E:\figma-app\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Student/source/repos/figma-app/App.xaml]
+[E:/figma-app/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = figma.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/Student/source/repos/figma-app/AppShell.xaml]
+[E:/figma-app/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = figma.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/Student/source/repos/figma-app/MainPage.xaml]
+[E:/figma-app/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = figma.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/Student/source/repos/figma-app/NewPage1.xaml]
+[E:/figma-app/NewPage1.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = figma.NewPage1.xaml
 build_metadata.AdditionalFiles.TargetPath = NewPage1.xaml
 build_metadata.AdditionalFiles.RelativePath = NewPage1.xaml
 
-[C:/Users/Student/source/repos/figma-app/Resources/Styles/Colors.xaml]
+[E:/figma-app/NewPage2.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = figma.NewPage2.xaml
+build_metadata.AdditionalFiles.TargetPath = NewPage2.xaml
+build_metadata.AdditionalFiles.RelativePath = NewPage2.xaml
+
+[E:/figma-app/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = figma.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/Student/source/repos/figma-app/Resources/Styles/Styles.xaml]
+[E:/figma-app/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = figma.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
